@@ -1,0 +1,77 @@
+﻿@charset "utf-8";
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    padding: 5px 15px;
+    background: #fff;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .3);
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+#iframe {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 48px 0 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.layui-upload-img {
+    width: 92px;
+    height: 92px;
+    margin: 0 10px 10px 0;
+}
+
+.img {
+    display: flex;
+    width: 75%;
+    height: 210px;
+    margin: 0 auto 20px;
+    background-color: #eee;
+    overflow: hidden;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.img img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+}
+
+
+#set {
+    position: relative;
+}
+
+.layui-collapse {
+    width: 200px;
+    position: absolute;
+    right: 0;
+    top: 38px;
+    display: none;
+}
+#set:hover .layui-collapse {
+    display: block;
+}
